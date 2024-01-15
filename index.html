@@ -3,9 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Assets/CSS/Style.css" />
+    <title>CV Ivan Arellano</title>
   </head>
   <body>
-    Hola Mundo
+    <!-- Barra de Inicico -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Iván Arellano</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Proyects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Academy</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Barra de Inicico -->
+    <!-- About Me -->
+    <div class="About_Me_Prin">
+      <h3 class="Titulos">Acerca de mi:</h3>
+      <div class="About_Me">
+        <div>
+          <img src="./Assets/IMGS/IvanAre_Foto.png" alt="" />
+        </div>
+        <div>
+          <p class="Text_About_Me">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe ad
+            velit quod consectetur corporis quasi esse molestias. Tempora,
+            aspernatur vitae. Magnam porro, dolorem voluptatem ea mollitia
+            perferendis quam asperiores minima? Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. In temporibus ea hic incidunt saepe
+            iste fuga odio, excepturi dicta aspernatur doloremque debitis nam
+            facilis placeat praesentium aliquid iure nihil quod.
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
 </html>

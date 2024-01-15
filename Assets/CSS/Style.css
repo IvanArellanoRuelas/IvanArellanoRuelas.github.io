@@ -1,3 +1,32 @@
 body {
   background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.About_Me_Prin {
+  background-color: #eeeeee;
+}
+
+.Titulos {
+  padding: 10px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.About_Me {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.About_Me img {
+  width: 90%;
+}
+
+.About_Me p {
+  text-align: center;
+  width: 100%;
 }
