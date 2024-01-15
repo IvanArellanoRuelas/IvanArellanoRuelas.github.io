@@ -30,3 +30,18 @@ body {
   text-align: center;
   width: 100%;
 }
+
+.Proyects {
+  background-color: #eeeeee;
+}
+
+.Academy {
+  background-color: #eeeeee;
+}
+
+.Logos {
+  height: auto;
+  max-width: 100%;
+  align-items: center;
+  text-align: center;
+}
